@@ -1,12 +1,15 @@
 <template>
-    <div>
+    <div>    
+    <Header />    
         main
         <div></div>     
-     
+    <Footer />
     </div>
 </template>
 
-<script setup>
+<script setup lang="ts"> 
+
+
 
 </script>
 

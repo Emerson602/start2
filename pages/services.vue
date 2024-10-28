@@ -1,7 +1,8 @@
 <template>
-    <div>
-        services
-    </div>
+    <Header />    
+       services
+        <div></div>     
+    <Footer />
 </template>
 
 <script setup>

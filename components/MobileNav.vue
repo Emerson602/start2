@@ -9,15 +9,15 @@
 
         <div v-if="MenuIsVisible">
             <button @click="toggleMenuVisibility" type="button">   
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 fixed top-0 end-0 m-6 z-50">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 fixed top-0 end-0 m-6 z-40">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
                 </svg>
             </button>
 
             <ul class="flex flex-col justify-center items-center fixed top-0 start-0 w-full h-full p-4 bg-gray-700 text-white text-3xl uppercase">
                 <li @click="toggleMenuVisibility" class="hover:text-gray-300"><nuxt-link to="/">Inicio</nuxt-link></li>
-                <li @click="toggleMenuVisibility" class="hover:text-gray-300 mt-6"><nuxt-link to="/services">Serviços</nuxt-link></li>
-                <li @click="toggleMenuVisibility" class="hover:text-gray-300 mt-6"><nuxt-link to="/about">Sobre</nuxt-link></li>
+                <li @click="toggleMenuVisibility" class="hover:text-gray-300 mt-6"><nuxt-link to="../pages/services.vue">Serviços</nuxt-link></li>
+                <li @click="toggleMenuVisibility" class="hover:text-gray-300 mt-6"><nuxt-link to="../pages/about">Sobre</nuxt-link></li>
                 <a href="https://api.whatsapp.com/send?phone=5582999025007" target="_blank">
                     <li @click="toggleMenuVisibility" class="hover:text-gray-300 mt-6">Contato</li>
                 </a>
@@ -40,7 +40,6 @@ const toggleMenuVisibility = (): void => {
 onMounted(() => {
     toggleMenuVisibility();
 });
-
 
 </script>
 

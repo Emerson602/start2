@@ -5,15 +5,15 @@
 
 <script setup lang="ts"> 
 
-const contactLink: string = 'https://api.whatsapp.com/send?phone=5582999025007';
-const preloaderRef = ref<{ removePreloader: () => void } | null>(null);
+  const contactLink: string = 'https://api.whatsapp.com/send?phone=5582999025007';
+  const preloaderRef = ref<{ removePreloader: () => void } | null>(null);
 
-const finishLoading = () => {
-  preloaderRef.value?.removePreloader();
-};
+  const finishLoading = () => {
+    preloaderRef.value?.removePreloader();
+  };
 
-onMounted(() => {
-    finishLoading()
-})
+  onMounted(() => {
+      finishLoading()
+  })
 
 </script>

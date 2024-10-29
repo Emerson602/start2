@@ -1,10 +1,10 @@
 <template>
-    <div>    
-    <Header />    
-        main
-        <div></div>     
-    <Footer />
-    </div>
+    <main>    
+        <Header />    
+        <Intro />
+                       
+        <Footer />
+    </main>
 </template>
 
 <script setup lang="ts"> 

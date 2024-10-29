@@ -5,7 +5,7 @@
         <div class="w-6 h-6 mr-2 border-4 border-t-transparent border-white rounded-full animate-spin"></div>
         <span class="text-white text-1xl uppercase">Carregando...</span>
       </div>    
-    </div>
+    </div>    
 </template>
   
 <script setup lang="ts">

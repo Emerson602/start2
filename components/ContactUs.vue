@@ -1,5 +1,5 @@
 <template>
-    <button 
+    <a      
         href="https://api.whatsapp.com/send?phone=5582999025007"
         target="_blank"
         class="
@@ -11,8 +11,10 @@
             text-xl
             animate-bounce
         ">
+      <button>
         Fale conosco
-    </button>
+      </button>
+    </a>
 </template>
 
 <script setup>

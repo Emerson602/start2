@@ -1,6 +1,6 @@
 <template>
     <a      
-        href="https://api.whatsapp.com/send?phone=5582999025007"
+        :href="useGlobalData()"
         target="_blank"
         class="
             bg-gray-800
@@ -15,12 +15,12 @@
         Fale conosco
       </button>
     </a>
+ 
 </template>
 
-<script setup>
 
-</script>
 
-<style lang="scss" scoped>
 
-</style>
+
+
+

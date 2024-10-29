@@ -4,7 +4,7 @@
             <li><nuxt-link to="/" class="hover:text-gray-300">Inicio</nuxt-link></li>
             <li><nuxt-link to="/services" class="hover:text-gray-300">Serviços</nuxt-link></li>
             <li><nuxt-link to="/about" class="hover:text-gray-300">Sobre</nuxt-link></li>
-            <a href="https://api.whatsapp.com/send?phone=5582999025007" target="_blank"><li class="hover:text-gray-300">Contato</li></a>
+            <a :href="useGlobalData()" target="_blank"><li class="hover:text-gray-300">Contato</li></a>
         </ul>
     </nav>
 </template>

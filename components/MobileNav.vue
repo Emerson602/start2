@@ -14,11 +14,11 @@
                 </svg>
             </button>
 
-            <ul class="flex flex-col justify-center items-center fixed top-0 start-0 w-full h-full p-4 bg-gray-700 text-white text-3xl uppercase">
+            <ul class="flex flex-col justify-center items-center fixed top-0 start-0 w-full h-full p-4 bg-gray-700 text-white text-3xl uppercase z-40">
                 <li @click="toggleMenuVisibility" class="hover:text-gray-300"><nuxt-link to="/">Inicio</nuxt-link></li>
                 <li @click="toggleMenuVisibility" class="hover:text-gray-300 mt-6"><nuxt-link to="/services">Serviços</nuxt-link></li>
                 <li @click="toggleMenuVisibility" class="hover:text-gray-300 mt-6"><nuxt-link to="/about">Sobre</nuxt-link></li>
-                <a href="https://api.whatsapp.com/send?phone=5582999025007" target="_blank">
+                <a :href="useGlobalData()" target="_blank">
                     <li @click="toggleMenuVisibility" class="hover:text-gray-300 mt-6">Contato</li>
                 </a>
             </ul>
@@ -28,8 +28,6 @@
 </template>
 
 <script setup lang="ts">
-
-import { ref, onMounted } from 'vue';
 
 const MenuIsVisible = ref<boolean>(true);
 

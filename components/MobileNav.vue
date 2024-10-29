@@ -16,7 +16,7 @@
 
             <ul class="flex flex-col justify-center items-center fixed top-0 start-0 w-full h-full p-4 bg-gray-700 text-white text-3xl uppercase">
                 <li @click="toggleMenuVisibility" class="hover:text-gray-300"><nuxt-link to="/">Inicio</nuxt-link></li>
-                <li @click="toggleMenuVisibility" class="hover:text-gray-300 mt-6"><nuxt-link to="/services.vue">Serviços</nuxt-link></li>
+                <li @click="toggleMenuVisibility" class="hover:text-gray-300 mt-6"><nuxt-link to="/services">Serviços</nuxt-link></li>
                 <li @click="toggleMenuVisibility" class="hover:text-gray-300 mt-6"><nuxt-link to="/about">Sobre</nuxt-link></li>
                 <a href="https://api.whatsapp.com/send?phone=5582999025007" target="_blank">
                     <li @click="toggleMenuVisibility" class="hover:text-gray-300 mt-6">Contato</li>

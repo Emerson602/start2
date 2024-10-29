@@ -9,6 +9,7 @@ export default defineNuxtConfig({
   
   app: {
     head: {
+      title: 'Start2',
       script: [
         {
           src: 'https://cdn.tailwindcss.com', 

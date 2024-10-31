@@ -1,4 +1,5 @@
 export default function () {
-    const contactLink:string = 'https://api.whatsapp.com/send?phone=5582999025007'
+    const contactNumber:number = 82999025007;
+    const contactLink:string = `https://api.whatsapp.com/send?phone=55${contactNumber}`
     return contactLink
 }

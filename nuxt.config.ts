@@ -9,6 +9,9 @@ export default defineNuxtConfig({
   
   app: {
     head: {
+      meta: [
+        { charset: 'utf-8' },       
+      ],
       title: 'Start2',
       script: [
         {

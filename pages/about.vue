@@ -1,7 +1,9 @@
 <template>
-    <Header />    
-        about
-        <div></div>     
+    <Header />          
+        <main>
+            about
+            <FloatingWhatsappButton />
+        </main>     
     <Footer />
 </template>
 

@@ -13,13 +13,13 @@
   const url = useGlobalData();    
 
   onMounted(() => {
-    if (qrCanvas.value) {
-      QRCode.toCanvas(qrCanvas.value, url, (error) => {
-        if (error) console.error(error)
-        else console.log('QR Code generated successfully!')
-      })
-    }
-  })
+  if (qrCanvas.value) {
+    QRCode.toCanvas(qrCanvas.value, url, (error: Error | null) => {
+      if (error) console.error(error)
+      else console.log('QR Code generated successfully!')
+    })
+  }
+})
 </script>
   
 

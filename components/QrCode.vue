@@ -1,4 +1,5 @@
-<template>                    
+<template>    
+    <p class="my-5 font-bold text-2xl lg:text-lg text-center lg:text-start">Ou leia o QR Code:</p>                
     <div class="mt-5 flex justify-center lg:justify-start align-center">    
       <canvas class="h-48 w-48" ref="qrCanvas"></canvas>
     </div>

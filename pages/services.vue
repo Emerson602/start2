@@ -36,10 +36,6 @@
     },
     {
       img: '4',
-      description: "Manutenção em inversores de frequência."
-    },
-    {
-      img: '5',
       description: "Serviço de manutenção elétrica e automação industrial."
     }
   ];

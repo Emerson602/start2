@@ -7,8 +7,7 @@
   
 <script setup lang="ts">
   import { ref, onMounted } from 'vue'
-  import QRCode from 'qrcode'
-  
+  import QRCode from 'qrcode'  
 
   const qrCanvas = ref<HTMLCanvasElement | null>(null)
   const url = useGlobalData();    

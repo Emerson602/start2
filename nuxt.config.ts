@@ -9,6 +9,9 @@ export default defineNuxtConfig({
   
   app: {
     head: {
+      htmlAttrs: {
+        lang: 'pt-BR', 
+      },
       meta: [
         { charset: 'utf-8' },
         { name: 'description', content: 'Serviços de montagem e manutenção de elevadores, climatização e automação industrial.' },

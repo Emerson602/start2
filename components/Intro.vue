@@ -1,6 +1,6 @@
 <template>
     <section>
-        <img>
+        <img src="https://picsum.photos/500/500" alt="banner">
         <div>
             <h1>Serviços de montagem e manutenção</h1>
             <h2>Elevadores, escadas rolantes, refrigeração comercial, geradores e automação industrial</h2>

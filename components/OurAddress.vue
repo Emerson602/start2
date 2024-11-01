@@ -7,7 +7,7 @@
         <div class="mt-5">
             <p  class="mb-5 font-bold text-2xl lg:text-lg">Localização:</p>
             <a :href="linkCoordinates" target="_blank">
-                <img class="w-10/12 sm:w-6/12 h-auto lg:w-64 md:h-64 m-auto lg:m-0" src="~/assets/imgs/location-preview.webp">
+                <img class="w-10/12 sm:w-6/12 h-auto lg:w-64 md:h-64 m-auto lg:m-0" alt="localizaçao" src="~/assets/imgs/location-preview.webp">
             </a>    
         </div>
     </div>

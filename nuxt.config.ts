@@ -10,7 +10,13 @@ export default defineNuxtConfig({
   app: {
     head: {
       meta: [
-        { charset: 'utf-8' },       
+        { charset: 'utf-8' },
+        { name: 'description', content: 'Serviços de montagem e manutenção de elevadores, climatização e automação industrial.' },
+        { name: 'keywords', content: 'manutenção, elevadores, climatização, automação industrial' },
+        { property: 'og:title', content: 'START2' },
+        { property: 'og:description', content: 'Especialistas em montagem e manutenção de sistemas industriais.' },
+        { property: 'og:image', content: '~/assets/imgs/logo.webp' },
+        { name: 'author', content: 'START2' }       
       ],
       title: 'Start2',
       script: [

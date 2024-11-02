@@ -2,6 +2,7 @@
     <a      
         :href="useGlobalData()"
         target="_blank"
+        aria-label="Fale conosco pelo WhatsApp"
         class="
             bg-gray-800
             text-white
@@ -11,9 +12,7 @@
             text-xl
             animate-bounce
         ">
-      <button>
         Fale conosco
-      </button>
     </a>
  
 </template>

@@ -15,6 +15,8 @@
             flex
             justify-center
             items-center
+            border-2
+            border-gray-500
             " 
             :href="useGlobalData()"
              target="_blank"

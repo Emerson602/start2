@@ -15,9 +15,10 @@
             py-20
             p-2
             bg-gradient-to-t from-slate-300 to-stone-50
-            ">
-            <h1 class="font-bold">Serviços de montagem e manutenção</h1>
-            <h2 class="my-10">Elevadores, escadas rolantes, refrigeração comercial, geradores e automação industrial</h2>
+            ">             
+            <h1 class="font-bold text-3xl">start2</h1>
+            <h2 class="mt-10">Serviços de montagem e manutenção</h2>
+            <h3 class="my-10">Elevadores, escadas rolantes, refrigeração comercial, geradores e automação industrial</h3>
             <ContactUsButton />        
         </div>
         <img class="hidden lg:block lg:w-1/2" :src="currentImg" alt="banner">

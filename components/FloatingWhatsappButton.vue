@@ -21,8 +21,7 @@
              aria-label="Fale conosco pelo WhatsApp
             ">
         
-            <img class="w-10 h-10" alt="whatsapp icon" src="~/assets/imgs/whatsapp-icon.webp">
- 
+            <img class="w-10 h-10" alt="whatsapp icon" src="~/assets/imgs/whatsapp-icon.webp"> 
     </a>
 </template>
 

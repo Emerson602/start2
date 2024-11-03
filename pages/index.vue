@@ -2,7 +2,7 @@
     <div>    
         <Header /> 
         <main>
-            <Intro />
+            <IndexPageIntro />
             <FloatingWhatsappButton />
         </main>             
         <Footer />

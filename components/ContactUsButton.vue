@@ -10,7 +10,8 @@
             rounded
             py-2
             px-6
-            text-xl         
+            text-xl 
+            mt-20        
         ">
         Fale conosco
     </a>

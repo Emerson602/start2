@@ -3,6 +3,7 @@
         <Header /> 
         <main>
             <IndexPageIntro />
+            <IndexPageGalleryGrid />
             <FloatingWhatsappButton />
         </main>             
         <Footer />

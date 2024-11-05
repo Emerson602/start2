@@ -2,7 +2,7 @@
     <footer>
         <MoreInformation />
         <div class="bg-gray-800 text-white text-xs md:text-sm py-2 text-center">
-            © {{ currentYear }} | START2 - CNPJ 00.000.000/0000-00
+            © {{ currentYear }} | START2 - CNPJ 53.212.062/0001-23 
         </div>        
     </footer>
 </template>

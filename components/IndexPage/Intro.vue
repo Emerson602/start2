@@ -15,9 +15,9 @@
             py-20
             p-5
             bg-gradient-to-t from-slate-300 to-stone-50
+            border-t-2
             lg:border-l-2
-            lg:border-gray-800
-            
+            border-gray-800            
             ">      
             <h1 class="font-bold text-3xl">start2</h1>
             <h2 class="mt-10">Serviços de montagem e manutenção</h2>    

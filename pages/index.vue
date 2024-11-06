@@ -4,7 +4,8 @@
         <main>
             <IndexPageIntro />
             <IndexPageGalleryGrid />
-            <FloatingWhatsappButton />
+            <IndexPageCompanyValues />
+            <FloatingWhatsappButton />            
         </main>             
         <Footer />
     </div>

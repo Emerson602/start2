@@ -17,9 +17,10 @@
             items-center
             border-2
             border-gray-500
-            " 
+            "             
             :href="useGlobalData()"
              target="_blank"
+             rel="noopener noreferrer"
              aria-label="Fale conosco pelo WhatsApp
             ">
         

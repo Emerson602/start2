@@ -18,7 +18,7 @@
                 <li @click="toggleMenuVisibility" class="hover:text-gray-300"><nuxt-link to="/">Inicio</nuxt-link></li>
                 <li @click="toggleMenuVisibility" class="hover:text-gray-300 mt-6"><nuxt-link to="/services">Serviços</nuxt-link></li>
                 <li @click="toggleMenuVisibility" class="hover:text-gray-300 mt-6"><nuxt-link to="/about">Sobre</nuxt-link></li>                
-                <li @click="toggleMenuVisibility" class="hover:text-gray-300 mt-6"><a :href="useGlobalData()" target="_blank">Contato</a></li>                        
+                <li @click="toggleMenuVisibility" class="hover:text-gray-300 mt-6"><a :href="useGlobalData()" target="_blank" rel="noopener noreferrer">Contato</a></li>                        
             </ul>
         </div>
     </nav>

@@ -7,6 +7,10 @@
         <p class="mt-1">tecnico@start2engenharia.com.br</p>
         <p class="mt-5 text-2xl lg:text-lg">Comercial:</p>
         <p class="mt-1">comercial@start2engenharia.com.br</p>
+        <div class="hidden lg:block">
+            <LinkToAffariDev />
+        </div>
+        
     </div> 
 </template>
 

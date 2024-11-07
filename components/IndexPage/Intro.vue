@@ -19,7 +19,7 @@
             lg:border-l-2
             border-gray-800            
             ">      
-            <h1 class="font-bold text-3xl">start2</h1>
+            <h1 class="font-bold text-3xl">start2 Engenharia</h1>
             <h2 class="mt-10">Serviços de montagem e manutenção</h2>    
             <ul class="mt-10 text-start list-disc">
                 <li>Elevadores</li>

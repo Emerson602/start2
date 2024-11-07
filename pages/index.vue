@@ -1,13 +1,11 @@
-<template>
-    <div>    
-        <Header /> 
+<template>      
+    <Header /> 
         <main>
             <IndexPageIntro />
             <IndexPageGalleryGrid />
             <IndexPageCompanyValues />
             <FloatingWhatsappButton />            
         </main>             
-        <Footer />
-    </div>
+    <Footer />    
 </template>
 

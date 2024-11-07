@@ -10,7 +10,8 @@
 
         <div class="hidden lg:block">
             <LinkToAffariDev />
-        </div>        
+        </div>   
+            <LinkToAffariDev />     
     </div> 
 </template>
 

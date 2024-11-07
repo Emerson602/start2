@@ -11,6 +11,7 @@
         <div class="block lg:hidden">
             <LinkToAffariDev />
         </div>
+            <LinkToAffariDev />
     </div>
 </template>
 

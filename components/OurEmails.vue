@@ -9,9 +9,9 @@
         <p class="mt-1">comercial@start2engenharia.com.br</p>
 
         <div class="hidden lg:block">
-            <LinkToAffariDev />
+            <AffariDevContent />
         </div>   
-            <LinkToAffariDev />     
+                 
     </div> 
 </template>
 

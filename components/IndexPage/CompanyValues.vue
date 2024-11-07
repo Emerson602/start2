@@ -3,7 +3,7 @@
         <Logo />
         <div class="flex justify-center items-center flex-col lg:flex-row mt-10">
             <div class="flex justify-center items-start flex-col text-xl">
-                <p class="mx-auto mx-0 uppercase">Na Start2 engenharia:</p>
+                <h1 class="mx-auto mx-0 uppercase">Na Start2 engenharia:</h1>
                 <div class="flex flex-row justify-center items-center mt-10">
                     <img src="~/assets/imgs/icon-1.webp" alt="Serviço de qualidade icone">
                     <span class="ml-2">Serviço de qualidade</span>
